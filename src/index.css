@@ -1,0 +1,58 @@
+@import "tailwindcss";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #e2ff3c;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.job-card {
+    background-color: rgb(149, 218, 245);
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.job-card h2 {
+    color: #2563eb;
+}
+
+.job-card p {
+    margin: 10px 0;
+}
